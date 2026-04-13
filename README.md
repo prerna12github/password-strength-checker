@@ -9,6 +9,7 @@ A REST API built with FastAPI that checks the strength of a password.
 
 ## Live Demo
 Base URL: https://password-strength-checker-80by.onrender.com
+
 API Docs: https://password-strength-checker-80by.onrender.com/docs
 
 ## Tech Stack
