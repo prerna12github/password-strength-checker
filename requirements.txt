@@ -1,4 +1,2 @@
-fastapi
 fastapi[standard]
 uvicorn
-pydantic
