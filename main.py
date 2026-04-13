@@ -2,11 +2,11 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import re
 
+app = FastAPI()
+
 class Password(BaseModel):
     password:str
 
-
-app = FastAPI()
 
 @app.get("/")
 def read_root():
