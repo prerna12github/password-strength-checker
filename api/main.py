@@ -9,7 +9,7 @@ class Password(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"Welcome": "Users"}
+    return {"message": "Welcome Users"}
 
 @app.post("/password_check")
 async def pass_check(password:Password):
