@@ -1,5 +1,4 @@
 # Password Strength Checker API
-
 A REST API built with FastAPI that checks the strength of a password.
 
 ## What it does
@@ -8,38 +7,33 @@ A REST API built with FastAPI that checks the strength of a password.
 - Returns estimated crack time
 
 ## Live Demo
-Base URL: https://password-strength-checker-80by.onrender.com
-
-API Docs: https://password-strength-checker-80by.onrender.com/docs
+Base URL: https://password-strength-checker-ymwt.vercel.app  
+API Docs: https://password-strength-checker-ymwt.vercel.app/docs
 
 ## Tech Stack
 - Python
 - FastAPI
-- Deployed on Render
+- Deployed on Vercel
 
 ## How to run locally
-
 1. Clone the repository
 ```bash
 git clone https://github.com/prerna12github/password-strength-checker.git
 cd password-strength-checker
 ```
-
 2. Install dependencies
 ```bash
-pip install fastapi[standard]
+uv pip install fastapi[standard]
 ```
 3. Run the server
 ```bash
-fastapi dev main.py
+fastapi run
 ```
-
 4. Open in browser
 http://127.0.0.1:8000/docs
 
 ## API Endpoints
-
-POST /password_check
+POST /password_check  
 Send a password, get back strength analysis.
 
 Request body:
