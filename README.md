@@ -23,7 +23,7 @@ cd password-strength-checker
 ```
 2. Install dependencies
 ```bash
-uv pip install fastapi[standard]
+pip install fastapi[standard]
 ```
 3. Run the server
 ```bash
